@@ -1,0 +1,29 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "Simple weather-app with js css and html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lfomar1/weather-app.git"
+  },
+  "author": "Lucas Omar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lfomar1/weather-app/issues"
+  },
+  "homepage": "https://github.com/lfomar1/weather-app#readme",
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "babel-jest": "^29.6.1",
+    "eslint": "^8.45.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
+
