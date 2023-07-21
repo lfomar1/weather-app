@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda&family=Merriweather:wght@700&family=Open+Sans:wght@400;700&family=Roboto:ital,wght@0,400;1,300;1,400&family=Shantell+Sans&family=Varela+Round&display=swap");
+* {
+  --header-color: #8ad0ce;
+  --body-color: #bdf7ff;
+  --text-color: #4b595e;
+  --font-merri: "Merriweather", serif;
+  --search-background-color: #d8d7e1;
+  --search-icon-color: #73bacc;
+  --card-background-color: #4c5263;
+  --card-text-color: #aaaaaa;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-merri);
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+header {
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--header-color);
+  font-size: 1.4rem;
+  border-bottom: 5px solid rgb(81, 74, 74, 0.1);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form {
+  gap: 10px;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+form input {
+  border: none;
+  font-family: var(--font-merri);
+  background-color: var(--search-background-color);
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+form button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+form button:hover {
+  color: var(--search-icon-color);
+}
+.card {
+  background-color: var(--card-background-color);
+  height: 500px;
+  width: 500px;
+  border-radius: 10px;
+  margin-top: 10px;
+  color: var(--card-text-color);
+  box-shadow: 2px 0px 9px 0px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 2px -1px 9px 1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 2px -1px 9px 1px rgba(0, 0, 0, 0.5);
+}
