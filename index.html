@@ -6,6 +6,32 @@
     <title>Weather App</title>
     <script defer src="main.js"></script>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1><i class="fa-solid fa-cloud-sun"></i> Weather App</h1>
+    </header>
+    <main>
+      <form class="form" novalidate>
+        <input type="text" placeholder="Enter a city name" />
+        <button class="search-btn">
+          <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+        </button>
+      </form>
+      <div class="card">
+        <h3 class="city-name"></h3>
+        <p class="temperature"></p>
+        <p class="feels-like"></p>
+        <p class="humidity"></p>
+        <p class="wind"></p>
+      </div>
+    </main>
+  </body>
 </html>
