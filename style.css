@@ -54,12 +54,18 @@ form button:hover {
 }
 .card {
   background-color: var(--card-background-color);
-  height: 500px;
-  width: 500px;
+  height: 300px;
+  width: 300px;
   border-radius: 10px;
-  margin-top: 10px;
+  margin-top: 50px;
   color: var(--card-text-color);
   box-shadow: 2px 0px 9px 0px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 2px -1px 9px 1px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 2px -1px 9px 1px rgba(0, 0, 0, 0.5);
+}
+.card.active {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
